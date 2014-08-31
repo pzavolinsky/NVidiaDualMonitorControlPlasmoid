@@ -35,7 +35,7 @@ DVI-I-2 disconnected (normal left inverted right x axis y axis)
 DVI-I-3 disconnected (normal left inverted right x axis y axis)
 ```
 
-Go to `contents/code/main.py` and change the output in both `ENABLED_COMMAND` and `DISABLED_COMMAND` to your secondary output (mine is `DVI-I-1`). You should also change the `--pos` argument there to set the offset of the secondary output. I have `DVI-I-1` to the right of `DVI-I-0` so my offset is 1680x0 (that is offset_x == width of 1st display and offset_y == 0).
+Go to `contents/code/main.py` and change the output in both `ENABLE_COMMAND` and `DISABLE_COMMAND` to your secondary output (mine is `DVI-I-1`). You should also change the `--pos` argument there to set the offset of the secondary output. I have `DVI-I-1` to the right of `DVI-I-0` so my offset is 1680x0 (that is offset_x == width of 1st display and offset_y == 0).
 
 In the same terminal, as your normal user (i.e. not root nor sudo) execute:
 ```shell
