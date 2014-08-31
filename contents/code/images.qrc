@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="enabled.svg">../images/enabled.svg</file>
+        <file alias="disabled.svg">../images/disabled.svg</file>
+    </qresource>
+</RCC>
